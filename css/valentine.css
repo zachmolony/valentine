@@ -2,8 +2,17 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: "Courier";
-  background-color: #fff5e4;
-  color: #ff9494;
+  background-color: #ff9494;
+  color: #fff;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
 }
 
 img {
@@ -23,7 +32,7 @@ img {
   margin: 10px;
   font-family: "courier";
   margin-bottom: 20px;
-  background-color: #ffe3e1;
+  background-color: #f5d9d7;
   color: #e67373;
   border-radius: 12px;
   border: 2px solid #ffe3e1;
@@ -32,8 +41,8 @@ img {
 }
 
 .answerButton:hover {
-  background-color: #ff9494;
-  color: #ffe3e1;
-  border: 2px solid #ff9494;
-  box-shadow: 1px 1px 2px #ffe3e1;
+  background-color: #fff;
+  color: #ff9494;
+  border: 2px solid #ffe3e1;
+  box-shadow: 1px 1px 2px #ff9494;
 }
